@@ -1,4 +1,4 @@
-package com.dbm.task1;
+package com.dbm.task1.models;
 
 public class Character {
     private String name;
