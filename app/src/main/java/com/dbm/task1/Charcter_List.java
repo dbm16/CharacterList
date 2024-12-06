@@ -22,17 +22,17 @@ public class Charcter_List extends AppCompatActivity {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_charcter_list);
 
-                    List<Character> characters = new ArrayList<>();
+            List<Character> characters = new ArrayList<>();
             characters.add(new Character("טימון ופומבה", "צמד חברים מהסרט מלך האריות", R.drawable.timon));
             characters.add(new Character("סימבה", "האריה הצעיר והמלך העתידי במלך האריות", R.drawable.simba));
             characters.add(new Character("בובספוג", "הספוג הצהוב המצחיק שעובד במסעדת קציצת הסרטן", R.drawable.spong));
-            characters.add(new Character("פטריק", "הכוכב הוורוד והחבר הכי טוב של בובספוג", R.mipmap.ic_launcher));
-            characters.add(new Character("סקווידוויד", "השכן הנרגן של בובספוג ופטריק", R.mipmap.ic_launcher));
-            characters.add(new Character("סקובי-דו", "הכלב הפחדן שמוביל חבורת בלשים", R.mipmap.ic_launcher));
+            characters.add(new Character("פטריק", "הכוכב הוורוד והחבר הכי טוב של בובספוג", R.drawable.patrick));
+            characters.add(new Character("סקווידוויד", "השכן הנגן של בובספוג ופטריק", R.drawable.squ));
+            characters.add(new Character("סקובי-דו", "הכלב הפחדן שמוביל חבורת בלשים", R.drawable.scooby));
             characters.add(new Character("באז שנות אור", "החללית והגיבור מ'צעצוע של סיפור'", R.drawable.buzz));
             characters.add(new Character("וודי", "הקאובוי האמיץ מ'צעצוע של סיפור'", R.drawable.woody));
-            characters.add(new Character("שראגי", "החבר הטוב של סקובי-דו ואוהב חטיפים", R.mipmap.ic_launcher));
-            characters.add(new Character("הומר סימפסון", "אבא מצחיק ממשפחת סימפסון", R.mipmap.ic_launcher));
+            characters.add(new Character("מיקי מאוס", "העכבר האייקוני מסרטי דיסני", R.drawable.micky));
+            characters.add(new Character("ספיידרמן", "איש הקירות וגיבור על", R.drawable.spider));
 
             RecyclerView recyclerView = findViewById(R.id.recycler_view);
             recyclerView.setLayoutManager(new LinearLayoutManager(this));
