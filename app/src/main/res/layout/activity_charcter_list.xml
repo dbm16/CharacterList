@@ -1,0 +1,59 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00aced"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:textSize="34sp"
+        android:fontFamily="@font/get_bold"
+        android:text="סדרות טלוויזיה" />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:fontFamily="@font/get_med"
+        android:padding="5dp"
+        android:text="כאן תוכלו לחפש כל מיני דמויות שתרצו בקלות" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="25dp"
+        android:background="@drawable/card"
+        android:layout_gravity="center"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/search_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="חפש דמות ..."
+            android:layout_margin="8dp"
+            android:fontFamily="@font/get_reg"
+            android:padding="10dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
