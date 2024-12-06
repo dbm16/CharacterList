@@ -20,7 +20,7 @@
             android:textColor="#000"
             android:gravity="right"
             android:layout_gravity="right"
-            android:text="טימון ופומבה"
+            android:text="ספיידרמן"
             android:fontFamily="@font/get_med"
             android:textStyle="bold" />
 
