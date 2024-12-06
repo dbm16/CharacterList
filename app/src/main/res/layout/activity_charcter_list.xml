@@ -15,7 +15,7 @@
         android:gravity="center"
         android:textSize="34sp"
         android:fontFamily="@font/get_bold"
-        android:text="סדרות טלוויזיה" />
+        android:text="בובספוג" />
 
     <TextView
         android:id="@+id/desc"
@@ -27,7 +27,7 @@
         android:textSize="18sp"
         android:fontFamily="@font/get_med"
         android:padding="5dp"
-        android:text="כאן תוכלו לחפש כל מיני דמויות שתרצו בקלות" />
+        android:text="כאן תוכלו לקבל מידע על הדמויות בסדרה בובספוג" />
 
     <LinearLayout
         android:layout_width="match_parent"

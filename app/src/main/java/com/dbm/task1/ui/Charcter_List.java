@@ -27,16 +27,16 @@ public class Charcter_List extends AppCompatActivity {
             setContentView(R.layout.activity_charcter_list);
 
             List<com.dbm.task1.models.Character> characters = new ArrayList<>();
-            characters.add(new com.dbm.task1.models.Character("טימון ופומבה", "צמד חברים מהסרט מלך האריות", R.drawable.timon));
-            characters.add(new com.dbm.task1.models.Character("סימבה", "האריה הצעיר והמלך העתידי במלך האריות", R.drawable.simba));
-            characters.add(new com.dbm.task1.models.Character("בובספוג", "הספוג הצהוב המצחיק שעובד במסעדת קציצת הסרטן", R.drawable.spong));
-            characters.add(new com.dbm.task1.models.Character("פטריק", "הכוכב הוורוד והחבר הכי טוב של בובספוג", R.drawable.patrick));
-            characters.add(new com.dbm.task1.models.Character("סקווידוויד", "השכן הנגן של בובספוג ופטריק", R.drawable.squ));
-            characters.add(new com.dbm.task1.models.Character("סקובי-דו", "הכלב הפחדן שמוביל חבורת בלשים", R.drawable.scooby));
-            characters.add(new com.dbm.task1.models.Character("באז שנות אור", "החללית והגיבור מ'צעצוע של סיפור'", R.drawable.buzz));
-            characters.add(new com.dbm.task1.models.Character("וודי", "הקאובוי האמיץ מ'צעצוע של סיפור'", R.drawable.woody));
-            characters.add(new com.dbm.task1.models.Character("מיקי מאוס", "העכבר האייקוני מסרטי דיסני", R.drawable.micky));
-            characters.add(new Character("ספיידרמן", "איש הקירות וגיבור על", R.drawable.spider));
+            characters.add(new Character("בובספוג מכנסמרובע", "בחור אופטימי וחיובי שתמיד מחייך. עובד קשה במסעדת המבורגרים אבל לפעמים קצת מעצבן את החברים שלו עם השטויות שלו.", R.drawable.spong));
+            characters.add(new Character("פטריק כוכב", "החבר הכי טוב של בובספוג. הוא די עצלן ולא תמיד מבין מה קורה סביבו, אבל יש לו לב ענק ותמיד מוכן לעזור.", R.drawable.patrick));
+            characters.add(new Character("סקווידוויד טנטקלס", "שכן של בובספוג ופטריק. תמיד נראה עצבני ועייף. הוא אוהב לנגן בקלרינט וחולם על חיים שקטים בלי רעש.", R.drawable.squ));
+            characters.add(new Character("מר קראב", "המנהל של מסעדת קציצת הסרטן. איש עסקים ממולח שכל מה שמעניין אותו זה כסף. לפעמים הוא קצת קמצן, אבל יש לו גם צד רך, בעיקר כלפי הבת שלו.", R.drawable.krab));
+            characters.add(new Character("סנדי צ'יקס", "חברה טובה של בובספוג. היא מדענית שאוהבת הרפתקאות וספורט. סנדי תמיד מוכנה ללמד את בובספוג דברים חדשים, בעיקר על עולם היבשה.", R.drawable.sandy));
+            characters.add(new Character("פרל קראב", "הבת של מר קראב. נערה מתבגרת שאוהבת אופנה ושופינג. לפעמים היא מתעצבנת על אבא שלה כשהוא מתנהג בצורה מביכה.", R.drawable.pearl));
+            characters.add(new Character("שלדון פלנקטון", "האויב המושבע של מר קראב. מנסה לגנוב את המתכון הסודי של קציצת הסרטן. הוא חכם, אבל התוכניות שלו תמיד נכשלות.", R.drawable.plankton));
+            characters.add(new Character("גארי החילזון", "החבר הכי נאמן של בובספוג. הוא לא מדבר, אבל המבט שלו אומר הכול. בובספוג אוהב אותו מאוד.", R.drawable.gary));
+            characters.add(new Character("גברת פאף", "המורה של בובספוג בבית הספר לנהיגה. היא תמיד בלחץ ממנו כי הוא נהג נוראי שגורם לה כאב ראש.", R.drawable.mrs_puff));
+            characters.add(new Character("קארן", "האישה של פלנקטון. מחשב חכם שתמיד נותן לו עצות, אבל לפעמים היא צוחקת עליו כשהוא נכשל.", R.drawable.karen));
 
             RecyclerView recyclerView = findViewById(R.id.recycler_view);
             recyclerView.setLayoutManager(new LinearLayoutManager(this));
