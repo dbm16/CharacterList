@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigate"
+    app:startDestination="@id/character_List_Fragment">
+    <fragment
+        android:id="@+id/character_List_Fragment"
+        android:name="com.dbm.task1.ui.Character_List_Fragment"
+        android:label="fragment_character__list_"
+        tools:layout="@layout/fragment_character__list_" />
+</navigation>
