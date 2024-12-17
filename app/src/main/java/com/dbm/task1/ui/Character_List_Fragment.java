@@ -36,10 +36,8 @@ public class Character_List_Fragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_character__list_, container, false);
 
-        // Initialize data
         List<Character> characters = new ArrayList<>();
         characters.add(new Character("בובספוג מכנסמרובע", "בחור אופטימי וחיובי שתמיד מחייך. עובד קשה במסעדת המבורגרים אבל לפעמים קצת מעצבן את החברים שלו עם השטויות שלו.", R.drawable.spong));
         characters.add(new Character("פטריק כוכב", "החבר הכי טוב של בובספוג. הוא די עצלן ולא תמיד מבין מה קורה סביבו, אבל יש לו לב ענק ותמיד מוכן לעזור.", R.drawable.patrick));
